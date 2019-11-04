@@ -1,0 +1,1451 @@
+!SESSION 2019-10-26 22:56:29.932 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 22:58:43.997
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 22:58:44.407
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 22:58:44.615
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 22:58:47.156
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 22:58:48.883
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-10-26 22:58:50.373
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-10-26 23:00:02.114
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-10-26 23:00:02.115
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 23:00:04.408
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-26 23:21:52.349
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:55:45.157
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.access$4(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(Unknown Source)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager$UpdateRequest.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	... 24 more
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:55:46.816
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.WM_LBUTTONDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_LBUTTONDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:55:55.313
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.WM_LBUTTONDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_LBUTTONDOWN(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-10-26 23:56:08.698
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramEditorWithFlyOutPalette.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.PartPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.EditorPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$3.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.core.runtime.Platform.run(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.activatePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.requestActivation(Unknown Source)
+	at org.eclipse.ui.internal.PartPane.requestActivation(Unknown Source)
+	at org.eclipse.ui.internal.EditorPane.requestActivation(Unknown Source)
+	at org.eclipse.ui.internal.PartPane.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_MOUSEACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:09.270
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 4 2019-10-26 23:56:09.805
+!MESSAGE "Guardar" no ha finalizado normalmente.  Consulte las anotaciones para obtener más información.
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:09.805
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.jface.window.ApplicationWindow.run(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(Unknown Source)
+	at org.eclipse.ui.internal.EditorManager.savePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.savePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(Unknown Source)
+	at org.eclipse.ui.internal.SaveAction.run(Unknown Source)
+	at org.eclipse.jface.action.Action.runWithEvent(Unknown Source)
+	at org.eclipse.jface.commands.ActionHandler.execute(Unknown Source)
+	at org.eclipse.core.commands.Command.executeWithChecks(Unknown Source)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(Unknown Source)
+	at org.eclipse.ui.internal.handlers.HandlerService.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.executeCommand(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.press(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.processKeyEvent(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.filterKeySequenceBindings(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard.access$3(Unknown Source)
+	at org.eclipse.ui.internal.keys.WorkbenchKeyboard$KeyDownFilter.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.filterEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmChar(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:13.184
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.release(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.dispose(Unknown Source)
+	at org.eclipse.jface.window.Window.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.TrayDialog.close(Unknown Source)
+	at org.eclipse.ui.internal.statushandlers.InternalDialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.ui.internal.statushandlers.InternalDialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:20.736
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.access$4(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(Unknown Source)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gef.ui.parts.GraphicalViewerImpl.flush(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flush(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.providers.DiagramContextMenuProvider.buildContextMenu(Unknown Source)
+	at org.eclipse.gef.ContextMenuProvider.menuAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.access$1(Unknown Source)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runPopups(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.gmf.runtime.common.ui 4 3 2019-10-26 23:56:25.416
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gmf.runtime.diagram.core.util.ViewUtil.resolveSemanticElement(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.completeRequest(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.getSemanticCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.getCommand(Unknown Source)
+	at org.eclipse.gef.editparts.AbstractEditPart.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart.access$0(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart$3.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.actions.DeleteFromModelAction.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.actions.DiagramAction.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.internal.actions.PromptingDeleteFromModelAction.doRun(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:26.474
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.release(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.dispose(Unknown Source)
+	at org.eclipse.jface.window.Window.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.openError(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.openError(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.openErrorDialog(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.handle(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:28.481
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.FreeformViewport$FreeformViewportLayout.calculatePreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.AbstractHintLayout.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.Figure.getPreferredSize(Unknown Source)
+	at org.eclipse.draw2d.ScrollPaneSolver.solve(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.layoutViewport(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas.access$4(Unknown Source)
+	at org.eclipse.draw2d.FigureCanvas$3.notifyValidating(Unknown Source)
+	at org.eclipse.draw2d.UpdateManager.fireValidating(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performUpdate(Unknown Source)
+	at org.eclipse.gef.ui.parts.GraphicalViewerImpl.flush(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer.flush(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.providers.DiagramContextMenuProvider.buildContextMenu(Unknown Source)
+	at org.eclipse.gef.ContextMenuProvider.menuAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.access$1(Unknown Source)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runPopups(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.gmf.runtime.common.ui 4 3 2019-10-26 23:56:28.483
+!MESSAGE null
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.gmf.runtime.diagram.core.util.ViewUtil.resolveSemanticElement(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.completeRequest(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.getSemanticCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editpolicies.SemanticEditPolicy.getCommand(Unknown Source)
+	at org.eclipse.gef.editparts.AbstractEditPart.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart.access$0(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart$3.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.editparts.ConnectionEditPart.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.actions.DeleteFromModelAction.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.actions.DiagramAction.getCommand(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.internal.actions.PromptingDeleteFromModelAction.doRun(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:31.538
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.release(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.dispose(Unknown Source)
+	at org.eclipse.jface.window.Window.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.close(Unknown Source)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Unknown Source)
+	at org.eclipse.jface.window.Window$3.shellClosed(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.openError(Unknown Source)
+	at org.eclipse.jface.dialogs.ErrorDialog.openError(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.openErrorDialog(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.handle(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.runWithEvent(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(Unknown Source)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2019-10-26 23:56:36.032
+!MESSAGE Se han producido problemas al invocar el código del plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramEditorWithFlyOutPalette.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.PartPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.EditorPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$3.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.core.runtime.Platform.run(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.activatePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.setActivePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.internalActivate(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.activate(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.showEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.services.editor.AbstractEditorProvider.openEditor(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.services.editor.OpenEditorOperation.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.common.core.service.ExecutionStrategy$1.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.common.core.service.Service.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.services.editor.EditorService.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.services.editor.EditorService.openEditor(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.OpenDiagramCommand$2.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain$3.run(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLTransactionalEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runExclusive(Unknown Source)
+	at org.eclipse.gmf.runtime.emf.core.internal.domain.MSLEditingDomain.runAsRead(Unknown Source)
+	at com.ibm.xtools.uml.ui.diagram.internal.commands.OpenDiagramCommand.doExecuteWithResult(Unknown Source)
+	at org.eclipse.gmf.runtime.common.core.command.AbstractCommand.execute(Unknown Source)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.execute(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.global.GlobalAction.doRun(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager$1.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.ActionManager.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.AbstractActionHandler.run(Unknown Source)
+	at org.eclipse.gmf.runtime.common.ui.action.internal.actions.global.GlobalOpenAction.run(Unknown Source)
+	at org.eclipse.ui.actions.RetargetAction.run(Unknown Source)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(Unknown Source)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(Unknown Source)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(Unknown Source)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy.access$2(Unknown Source)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:45.072
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setSavedFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.restoreFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DestroyWindow(Native Method)
+	at org.eclipse.swt.widgets.Control.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.release(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.dispose(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.dispose(Unknown Source)
+	at org.eclipse.jface.window.Window.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.TrayDialog.close(Unknown Source)
+	at org.eclipse.ui.internal.statushandlers.InternalDialog.close(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.okPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Unknown Source)
+	at org.eclipse.ui.internal.statushandlers.InternalDialog.buttonPressed(Unknown Source)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 0 2019-10-26 23:56:47.163
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.draw2d.FocusTraverseManager.getNextFocusableFigure(Unknown Source)
+	at org.eclipse.draw2d.SWTEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.gef.ui.parts.DomainEventDispatcher.dispatchFocusGained(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$EventHandler.focusGained(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Control.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.setFocus(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramEditorWithFlyOutPalette.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.PartPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.EditorPane.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.presentations.PresentablePart.setFocus(Unknown Source)
+	at org.eclipse.ui.internal.presentations.util.TabbedStackPresentation$1.handleEvent(Unknown Source)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(Unknown Source)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.fireEvent(Unknown Source)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder.handleMouseDown(Unknown Source)
+	at org.eclipse.ui.internal.presentations.util.AbstractTabFolder$3.mouseDown(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+!SESSION 2019-10-27 22:03:49.282 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:10.035
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:10.165
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:10.207
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:10.723
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:10.742
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-10-27 22:04:11.354
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-10-27 22:04:26.041
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-10-27 22:04:26.041
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-10-27 22:04:37.995
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+!SESSION 2019-11-01 16:22:35.423 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:23:45.030
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:23:45.410
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:23:45.429
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:23:45.622
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-11-01 16:23:52.719
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:23:53.752
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-01 16:23:57.992
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-01 16:23:57.993
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:24:24.661
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:26:16.392
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.osgi 2 1 2019-11-01 16:37:09.415
+!MESSAGE NLS unused message: MenuManager_CreateAction__MessageDriven__Activity_name in: com.ibm.xtools.transform.uml2.ejb3.ui.internal.l10n.EJB_3_0_TransformationMessages
+
+!ENTRY org.eclipse.osgi 2 1 2019-11-01 16:37:09.422
+!MESSAGE NLS missing message: MenuManager_CreateAction__ServiceProvider__Stereotype_name in: com.ibm.xtools.modeling.enterprise.services.internal.l10n.Messages
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:37:15.833
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-11-01 16:37:15.918
+!MESSAGE La característica com.ibm.xtools.transform.uml2.soa.feature, versión 1.0.0 no ha pasado la comprobación de licencia
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:37:15.923
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-11-01 16:37:15.923
+!MESSAGE La característica com.ibm.xtools.transform.uml2.soa.feature, versión 1.0.0 no ha pasado la comprobación de licencia
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:37:15.942
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-11-01 16:37:15.943
+!MESSAGE La característica com.ibm.xtools.transform.uml2.soa.feature, versión 1.0.0 no ha pasado la comprobación de licencia
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:37:15.948
+!MESSAGE LUM license expired for productID 49: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-11-01 16:37:15.949
+!MESSAGE La característica com.ibm.rsa.sipmtk.feature, versión 7.5.4.qualifier no ha pasado la comprobación de licencia
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-01 16:45:38.177
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+!SESSION 2019-11-02 15:26:38.707 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:26:59.829
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:27:00.173
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:27:00.287
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:27:01.976
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:27:03.690
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-11-02 15:27:05.017
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:28:07.919
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-02 15:28:17.896
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-02 15:28:17.896
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-02 15:29:23.370
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+!SESSION 2019-11-03 17:10:36.081 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:11:55.915
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:11:56.240
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:11:56.299
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:11:56.443
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:12:00.953
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-11-03 17:12:02.373
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-03 17:25:40.411
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-11-03 17:25:40.411
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 17:29:02.921
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui 4 0 2019-11-03 17:48:46.412
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.graphics.GC.setFont(Unknown Source)
+	at org.eclipse.draw2d.FigureUtilities.setFont(Unknown Source)
+	at org.eclipse.draw2d.FigureUtilities.getTextDimension(Unknown Source)
+	at org.eclipse.draw2d.FigureUtilities.getTextExtents(Unknown Source)
+	at org.eclipse.draw2d.TextUtilities.getTextExtents(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.tools.TextDirectEditManager$1.relocate(Unknown Source)
+	at org.eclipse.gef.tools.DirectEditManager.placeCellEditor(Unknown Source)
+	at org.eclipse.gef.tools.DirectEditManager.access$1(Unknown Source)
+	at org.eclipse.gef.tools.DirectEditManager$1.ancestorMoved(Unknown Source)
+	at org.eclipse.draw2d.AncestorHelper.fireAncestorMoved(Unknown Source)
+	at org.eclipse.draw2d.AncestorHelper.figureMoved(Unknown Source)
+	at org.eclipse.draw2d.Figure.fireFigureMoved(Unknown Source)
+	at org.eclipse.draw2d.Figure.setBounds(Unknown Source)
+	at org.eclipse.draw2d.FreeformHelper.setFreeformBounds(Unknown Source)
+	at org.eclipse.draw2d.FreeformLayeredPane.setFreeformBounds(Unknown Source)
+	at org.eclipse.draw2d.FreeformViewport.readjustScrollBars(Unknown Source)
+	at org.eclipse.draw2d.Viewport.validate(Unknown Source)
+	at org.eclipse.draw2d.Figure.validate(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramGraphicalViewer$ToggleUpdateManager.performValidation(Unknown Source)
+	at org.eclipse.draw2d.DeferredUpdateManager.paint(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem.paint(Unknown Source)
+	at org.eclipse.draw2d.LightweightSystem$2.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Composite.WM_PAINT(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 18:16:48.143
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-11-03 19:16:40.901
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
