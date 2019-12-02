@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="108" version="2.0">
+<workbench progressCount="106" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="52" y="52">
+<window height="768" maximized="true" width="1024" x="806" y="213">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="com.ibm.xtools.mde.guidance"/>
 <orientation position="512" view="com.ibm.ccl.erf.ui.views.reportexplorer"/>
@@ -37,7 +37,6 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
@@ -58,7 +57,7 @@
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" partName="Explorador de informes"/>
 </views>
 <perspectives activePart="ModelerDiagramEditor" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
-<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.xtools.rmp.ui.internal.perspective.ModelingPerspective" id="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective" label="Modelado"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
 <alwaysOnActionSet id="com.ibm.ccl.help.preferenceharvester.actionSet1"/>
@@ -113,22 +112,14 @@
 <perspective_action id="com.ibm.xtools.dotnet.DotnetPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViews>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" ratio="0.25"/>
 <view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
 </fastViews>
 <fastViewBars>
-<fastViewBar fastViewLocation="1024" id="underEditorArea" orientation="256" selectedTabId="org.eclipse.ui.views.PropertySheet" style="1">
-<fastViews>
-<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="projectExplorerArea" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
-<fastViewBar fastViewLocation="16384" id="underProjectExplorerArea" orientation="256" selectedTabId="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" style="1">
+<fastViewBar fastViewLocation="16384" id="underProjectExplorerArea" orientation="256" selectedTabId="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" style="0">
 <fastViews>
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" ratio="0.3"/>
 <view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
@@ -138,9 +129,11 @@
 <layout>
 <mainWindow>
 <info folder="true" part="projectExplorerArea">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Explorador de proyectos"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1db11db1" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="projectExplorerArea">
@@ -151,16 +144,18 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.21529597" ratioLeft="411" ratioRight="1498" relationship="2" relative="projectExplorerArea"/>
-<info folder="true" part="underEditorArea" ratio="0.6594427" ratioLeft="426" ratioRight="220" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
-<folder appearance="2" expanded="0">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.2702986" ratioLeft="516" ratioRight="1393" relationship="2" relative="projectExplorerArea"/>
+<info folder="true" part="underEditorArea" ratio="0.7369589" ratioLeft="664" ratioRight="237" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Propiedades"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="185" ratioRight="555" relationship="2" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer"/>
 <info folder="true" part="underProjectExplorerArea" ratio="0.6594427" ratioLeft="426" ratioRight="220" relationship="4" relative="projectExplorerArea">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="com.ibm.xtools.rmp.ui.diagram.layers.LayersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="com.ibm.xtools.modeler.ui.internal.ui.views.InheritanceExplorer" label="LabelNotFound"/>
@@ -180,8 +175,8 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="projectExplorerArea"/>
 <trimItem IMemento.internal.id="underProjectExplorerArea"/>
+<trimItem IMemento.internal.id="projectExplorerArea"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -195,11 +190,8 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="MAN.emx" tooltip="DO-IT ADS1/MAN.emx">
-<persistable path="/DO-IT ADS1/MAN.emx"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Paquete de negocio en blanco.emx" tooltip="DO-IT ADS1/Paquete de negocio en blanco.emx">
-<persistable path="/DO-IT ADS1/Paquete de negocio en blanco.emx"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="MCUS.emx" tooltip="DO-IT ADS1/MCUS.emx">
+<persistable path="/DO-IT ADS1/MCUS.emx"/>
 </file>
 </mruList>
 </workbench>
