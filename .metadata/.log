@@ -1735,3 +1735,207 @@ Caused by: java.lang.NullPointerException
 	at com.ibm.xtools.modeler.ui.diagrams.activity.internal.editparts.actionnode.ActionNodeEditPart$2.run(Unknown Source)
 	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
 	... 24 more
+!SESSION 2019-12-02 01:45:22.878 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.074
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.142
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.173
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.353
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.660
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:45:53.728
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-12-02 01:45:54.839
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 01:46:02.473
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 01:46:02.475
+!MESSAGE La característica de la extensión no es válida
+!SESSION 2019-12-02 01:49:23.245 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:49:36.594
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:49:36.674
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:49:36.699
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:49:36.833
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:49:36.902
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-12-02 01:49:37.265
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 01:49:49.888
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 01:49:49.889
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:50:02.462
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:50:35.687
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.pde.core 4 0 2019-12-02 01:54:04.361
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Excepción en org.eclipse.pde.internal.core.PDECore.stop() del paquete compuesto org.eclipse.pde.core.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.resolveVariables(Unknown Source)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.resolveHomeLocation(Unknown Source)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.getLocation(Unknown Source)
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.getVMArguments(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetPlatformService.newDefaultTargetDefinition(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.initDefaultTargetPlatformDefinition(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.findEntry(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(Unknown Source)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(Unknown Source)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.save(Unknown Source)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.shutdown(Unknown Source)
+	at org.eclipse.pde.internal.core.PDECore.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	... 20 more
+Root exception:
+java.lang.NullPointerException
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.resolveVariables(Unknown Source)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.resolveHomeLocation(Unknown Source)
+	at org.eclipse.pde.internal.core.target.ProfileBundleContainer.getLocation(Unknown Source)
+	at org.eclipse.pde.internal.core.target.AbstractBundleContainer.getVMArguments(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetPlatformService.newDefaultTargetDefinition(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.initDefaultTargetPlatformDefinition(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.initializeTable(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.getEntryTable(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.findEntry(Unknown Source)
+	at org.eclipse.pde.internal.core.PluginModelManager.findModel(Unknown Source)
+	at org.eclipse.pde.core.plugin.PluginRegistry.findModel(Unknown Source)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.save(Unknown Source)
+	at org.eclipse.pde.internal.core.JavaElementChangeListener.shutdown(Unknown Source)
+	at org.eclipse.pde.internal.core.PDECore.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 01:57:29.557
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+!SESSION 2019-12-02 02:12:30.209 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows Vista x86-32 jvmwi3260sr8-20100401_55940 (JIT enabled, AOT enabled)
+J9VM - 20100401_055940
+JIT  - r9_20100401_15339
+GC   - 20100308_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_PE
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-12-02 02:13:25.643
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:14:05.478
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:14:05.493
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:14:05.931
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:14:06.196
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:14:08.945
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-12-02 02:14:08.977
+!MESSAGE El Cliente RAM no está instalado. Instale el Cliente RAM para habilitar la funcionalidad de integración de RAM.
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 02:19:25.071
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.xtools.emf.index 2 9 2019-12-02 02:19:25.071
+!MESSAGE La característica de la extensión no es válida
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:19:48.253
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:20:21.307
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-12-02 02:20:48.816
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
